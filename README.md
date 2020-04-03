@@ -1,5 +1,5 @@
 # Interview task
-Here is my solution to interview task. I measured AP metric for two models performing on a part of FDDB dataset.
+Here is my solution to an interview task. I measured AP metric for two models performing on a part of FDDB dataset.
 
 Some code was taken from here: 
 https://github.com/opencv/opencv/blob/master/modules/dnn/misc/face_detector_accuracy.py
