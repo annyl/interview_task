@@ -11,4 +11,4 @@ I also downloaded a model for dlib: http://dlib.net/files/mmod_human_face_detect
 
 To launch a program, use the following line:
 
-<code>python3 --cv_proto /Users/stacey/repos/opencv/samples/dnn/face_detector/deploy.prototxt --cv_model /Users/stacey/repos/opencv/samples/dnn/face_detector/res10_300x300_ssd_iter_140000_fp16.caffemodel --dlib_model /Users/stacey/Jupyter/test_task/mmod_human_face_detector.dat --fddb --ann /Users/stacey/Jupyter/test_task/FDDB-folds --pics /Users/stacey/Jupyter/test_task/originalPics</code>
+<code>python3 face_detector_ap.py --cv_proto *path to OpenCV repo*/opencv/samples/dnn/face_detector/deploy.prototxt --cv_model *path to OpenCV repo*/opencv/samples/dnn/face_detector/res10_300x300_ssd_iter_140000_fp16.caffemodel --dlib_model *path to a downloaded model for dlib*/mmod_human_face_detector.dat --fddb --ann *path to FDDB annotations*/FDDB-folds --pics *path to FDDB pictures*/originalPics</code>
